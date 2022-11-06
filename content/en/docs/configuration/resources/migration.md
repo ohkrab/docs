@@ -12,7 +12,7 @@ toc: true
 
 Migration resource is a single migrate operation.
 
-```hcl
+```hcl {lineNos=true}
 migration "<reference>" {
   version     = "<version>"
   transaction = true
@@ -36,7 +36,7 @@ migration "<reference>" {
 
 Up/Down migration can use built-in DSL for Data Definition Language.
 
-{{<alert context="danger">}}
+{{<alert context="info">}}
 DSL order matters, code will run in that order (`sql` attribute order also matters)
 {{</alert>}}
 
@@ -49,7 +49,7 @@ Supported DDL:
 
 ## Example
 
-```hcl
+```hcl {lineNos=true}
 migration "create_tenants" {
   version = "20060102150405"
 
@@ -65,7 +65,7 @@ migration "create_tenants" {
 
 ## DSL example
 
-```hcl
+```hcl {lineNos=true}
 migration "create_categories" {
   version = "v1"
 
@@ -156,7 +156,7 @@ migration_set "animals" {
 
 ## DSL index example
 
-```hcl
+```hcl {lineNos=true}
 migration "create_animals" {
   version = "v1"
   transaction = false

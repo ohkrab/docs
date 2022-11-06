@@ -17,7 +17,7 @@ At the beginning of an operation advisory lock is acquired to prevent other migr
 
 When migration table does not exist, it will be created.
 
-{{<alert context="danger">}}
+{{<alert context="warning">}}
 Migrations are executed in the order defined by migration set, NOT lexicographically.
 {{</alert>}}
 

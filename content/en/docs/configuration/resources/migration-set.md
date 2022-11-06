@@ -12,7 +12,7 @@ toc: true
 
 Migration Set is a collection of migrations.
 
-```hcl
+```hcl {lineNos=true}
 migration_set "<reference>" {
   schema = "public"
 
@@ -32,7 +32,7 @@ These attributes can be used with arguments:
 
 - `schema` - value is automatically quoted
 
-```hcl
+```hcl {lineNos=true}
 migration_set "tenant" {
   arguments {
     arg "schema" {}
@@ -46,7 +46,7 @@ migration_set "tenant" {
 
 ## Example
 
-```hcl
+```hcl {lineNos=true}
 migration_set "private" {
   migrations = [
     migration.create_tenants
