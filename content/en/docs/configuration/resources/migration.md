@@ -1,6 +1,6 @@
 ---
 title: "Migration"
-description: "Migration"
+description: "Migration configuration resource."
 lead: ""
 draft: false
 images: []
@@ -36,7 +36,7 @@ migration "<reference>" {
 
 Up/Down migration can use built-in DSL for Data Definition Language.
 
-{{<alert>}}
+{{<alert context="danger">}}
 DSL order matters, code will run in that order (`sql` attribute order also matters)
 {{</alert>}}
 

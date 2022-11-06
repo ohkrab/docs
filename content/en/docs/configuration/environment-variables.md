@@ -1,6 +1,6 @@
 ---
 title: "Environment variables"
-description: "Environment variables"
+description: "Environment variables settings."
 lead: ""
 draft: false
 images: []

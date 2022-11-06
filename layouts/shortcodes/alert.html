@@ -1,5 +1,9 @@
 <div class="alert alert-{{ with .Get "context" }}{{.}}{{ else }}doks{{ end }} d-flex" role="alert">
-  <div class="flex-shrink-1 alert-icon">{{ with .Get "icon" }}{{.}} {{ end }}</div>
+  <div class="flex-shrink-1 alert-icon">
+    <!-- {{ $img_logo := resources.Get "images/favicon.svg" }} -->
+    <!-- <img src="{{ $img_logo.RelPermalink }}" class="mt-n1"> -->
+    {{ with .Get "icon" }}{{.}} {{ end }}
+  </div>
   {{ with .Get "text"}}
     <div class="w-100">{{ . | safeHTML }} </div>
   {{ else }}

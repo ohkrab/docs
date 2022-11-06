@@ -1,7 +1,7 @@
 ---
 title: "Changelog"
 description: "Changelog of latest changes."
-lead: ""
+lead: "For detailed view of changes refer to GitHub releases."
 draft: false
 images: []
 menu:

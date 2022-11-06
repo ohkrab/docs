@@ -1,6 +1,6 @@
 ---
 title: "Version"
-description: "Version"
+description: "Version command in CLI."
 lead: ""
 draft: false
 images: []

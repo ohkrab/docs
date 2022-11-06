@@ -1,6 +1,6 @@
 ---
 title: "Migrate status"
-description: "Migrate status"
+description: "Migrate status command in CLI."
 lead: ""
 draft: false
 images: []

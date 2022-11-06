@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-description: "Installation"
+description: "Use various installation methods."
 lead: ""
 images: []
 menu:
@@ -9,6 +9,8 @@ menu:
 weight: 120
 toc: true
 ---
+
+## binary 
 
 Krab binary can be downloaded from [GitHub](https://github.com/ohkrab/krab/releases). Other methods are listed below.
 

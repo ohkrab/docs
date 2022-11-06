@@ -1,6 +1,6 @@
 ---
 title: "Overview"
-description: "Overview"
+description: "Overview of available configuration."
 lead: ""
 draft: false
 images: []

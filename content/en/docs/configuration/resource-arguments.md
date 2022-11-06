@@ -1,6 +1,6 @@
 ---
 title: "Resource arguments"
-description: "Resource arguments"
+description: "Usage of resource arguments and built-in functions."
 lead: ""
 draft: false
 images: []

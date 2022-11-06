@@ -1,6 +1,6 @@
 ---
 title: "Action"
-description: "Action"
+description: "Action command in CLI."
 lead: ""
 draft: false
 images: []

@@ -1,6 +1,6 @@
 ---
 title: "Overview"
-description: "Overview"
+description: "Introduction to krab, glossary and external links."
 lead: ""
 images: []
 menu:

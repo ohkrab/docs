@@ -1,6 +1,6 @@
 ---
 title: "Migrate down"
-description: "Migrate down"
+description: "Migrate down command in CLI."
 lead: ""
 draft: false
 images: []

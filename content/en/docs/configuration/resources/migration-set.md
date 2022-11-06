@@ -1,6 +1,6 @@
 ---
 title: "Migration set"
-description: "Migration set"
+description: "Migration set configuration resource."
 lead: ""
 draft: false
 images: []
