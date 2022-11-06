@@ -1,0 +1,113 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Oh, Krab!"
+titleSeparator = "-"
+titleAddition = "Swiss army knife for PostgreSQL"
+description = "Krab is a PostgreSQL tool based on HCL syntax. Its aim is to provide fine control for your databases in every environment."
+# favicon = "/images/favicon.svg"
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["logo.svg"]
+ogLocale = "en_US"
+domainTLD = "ohkrab.dev"
+titleHome = "Oh, Krab!"
+
+## Twitter Cards
+# twitterSite = "@getdoks"
+# twitterCreator = "@henkverlinde"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "Oh, Krab!"
+schemaAuthor = "Bartłomiej Wójtowicz"
+schemaAuthorTwitter = ""
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaAuthorGitHub = "https://github.com/qbart"
+schemaLocale = "en-US"
+schemaLogo = "logo.svg"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "logo.svg"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = ""
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/ohkrab/krab"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Images
+imageResponsive = true
+imageConvertTo = "webp"
+imageImageSizes = ["480","720","1080","1280","1600","2048"]
+singleSize = false
+imageAddClass = "img-fluid lazyload blur-up"
+
+### Image template
+defaultImage = "default-image.png" # put in `./assets/images/`
+fillImage = "1270x740 Center" # normalize image size
+
+# Footer
+footer = "Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
+# Feed
+copyRight = "Copyright (c) Bartłomiej Wójtowicz"
+
+# Alert
+alert = false
+alertDismissable = true
+alertText = ""
+
+# Edit Page
+repoHost = "GitHub"
+docsRepo = "https://github.com/ohkrab/www"
+docsRepoBranch = "master"
+docsRepoSubPath = ""
+editPage = true
+lastMod = true
+
+[sections]
+  sectionNav = ["docs"]
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  searchSectionsShow = []
+  searchSectionsIndex = []
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = true
+  highLight = true
+  kaTex = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = true
+  navbarSticky = true
+  toTopButton = false
+  scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = false
+
