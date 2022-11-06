@@ -65,7 +65,7 @@ Source:
 
   var index = new FlexSearch.Document({
     tokenize: "forward",
-    cache: 100,
+    cache: true,
     document: {
       id: 'id',
       store: [

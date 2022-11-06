@@ -38,7 +38,7 @@ asdf local krab 0.5.0
 
 ## docker 
 
-Docker images can be found at [Docker hub 🐋](https://hub.docker.com/orgs/ohkrab/repositories)
+Docker images can be found at [Docker hub](https://hub.docker.com/orgs/ohkrab/repositories).
 
 To start a docker container a `DATABASE_URL` environment variable must be provided.
 By default "krab" reads configuration from `/etc/krab` that must be mounted as a volume,
@@ -55,7 +55,7 @@ Example:
 docker run --rm                          \  # remove container after command execution
         -e DATABASE_URL="..."            \  # provide connection string
         -v ${HOME}/project1:/etc/krab:ro \  # mount configuration volume
-        ohkrab/krab:nightly --version    # run `--version` command from `qbart/krab:latest`
+        ohkrab/krab:nightly version    # run `version` command from `qbart/krab:latest`
 ```
 
 one-liner:
