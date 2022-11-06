@@ -12,6 +12,8 @@
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation">
 
     <a class="navbar-brand order-0" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
+      {{ $img_logo := resources.Get "images/favicon.svg" }}
+      <img src="{{ $img_logo.RelPermalink }}" class="mt-n1 mx-1">
       {{ .Site.Params.Title }}
     </a>
 
