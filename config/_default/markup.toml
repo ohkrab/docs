@@ -19,8 +19,8 @@ defaultMarkdownHandler = "goldmark"
   lineNoStart = 1
   lineNos = false
   lineNumbersInTable = false
-  noClasses = true
-  style = "pygments" # dracula, rrt, fruity, pygments, api
+  noClasses = false
+  style = "dracula" 
   tabWidth = 4
 
 [tableOfContents]
