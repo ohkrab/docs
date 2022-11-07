@@ -4,9 +4,6 @@ description: "Migration set configuration resource."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "resources"
 toc: true
 ---
 
@@ -24,7 +21,7 @@ migration_set "<reference>" {
 
 - `<reference>` - migration set reference name
 - `schema` (optional) - schema name where to create `schema_migrations` table and run migrations (`SET search_path TO <schema>` is executed before each migration), default: `public`
-- `migrations` - list of [migrations]({{< ref "docs/configuration/resources/migration" >}}) references
+- `migrations` - list of [migrations]({{< ref "docs/resources/migration" >}}) references
 
 ## Arguments 
 

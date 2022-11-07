@@ -4,10 +4,6 @@ description: "Action command in CLI."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "commands"
-    identifier: "commands-action"
 toc: true
 ---
 
@@ -21,7 +17,7 @@ krab action namespace name [arguments]
 
 ## Example
 
-For [view refresh action]({{< ref "docs/configuration/resources/action#example" >}}) you would use:
+For [view refresh action]({{< ref "docs/resources/action#example" >}}) you would use:
 
 ```bash
 krab action view refresh -name my-view-name

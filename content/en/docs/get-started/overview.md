@@ -7,7 +7,7 @@ menu:
   docs:
     parent: "get-started"
     identifier: "get-started-overview"
-weight: 110
+weight: 1100
 toc: true
 ---
 

@@ -4,9 +4,6 @@ description: "Migrate up command in CLI."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "migrate"
 toc: true
 ---
 
@@ -34,7 +31,7 @@ krab migrate up [set]
 
 ## Example
 
-For `default` [migration set]({{< ref "docs/configuration/resources/migration-set" >}}) you would use:
+For `default` [migration set]({{< ref "docs/resources/migration-set" >}}) you would use:
 
 ```bash
 krab migrate up default

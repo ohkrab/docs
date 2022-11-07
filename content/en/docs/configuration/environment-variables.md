@@ -4,11 +4,8 @@ description: "Environment variables settings."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "configuration"
-weight: 220
 toc: true
+weight: 2200
 ---
 
 - `KRAB_DIR` - directory to load configuration from, if not defined, it defaults to the current working directory

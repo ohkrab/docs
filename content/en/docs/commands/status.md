@@ -4,9 +4,6 @@ description: "Migrate status command in CLI."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "migrate"
 toc: true
 ---
 

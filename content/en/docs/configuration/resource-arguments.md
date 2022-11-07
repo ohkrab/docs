@@ -4,11 +4,8 @@ description: "Usage of resource arguments and built-in functions."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "configuration"
-weight: 230
 toc: true
+weight: 2300
 ---
 
 Some resources accept arguments block that allows to parametrize command.

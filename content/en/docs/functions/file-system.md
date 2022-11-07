@@ -4,10 +4,6 @@ description: "Functions releated to file system."
 lead: "Functions that can be used in krab configuration files."
 draft: false
 images: []
-menu:
-  docs:
-    parent: "functions"
-weight: 10
 toc: true
 ---
 

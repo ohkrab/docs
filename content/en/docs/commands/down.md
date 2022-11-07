@@ -4,9 +4,6 @@ description: "Migrate down command in CLI."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "migrate"
 toc: true
 ---
 
@@ -28,7 +25,7 @@ krab migrate down [set] [version]
 
 ## Example
 
-For `default` [migration set]({{< ref "docs/configuration/resources/migration-set" >}}) and [migration]({{< ref "docs/configuration/resources/migration" >}}) version `20060102150405` you would use:
+For `default` [migration set]({{< ref "docs/resources/migration-set" >}}) and [migration]({{< ref "docs/resources/migration" >}}) version `20060102150405` you would use:
 
 ```bash
 krab migrate down default 20060102150405

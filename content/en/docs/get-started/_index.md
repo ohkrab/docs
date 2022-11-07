@@ -3,5 +3,5 @@ title : "Get started"
 description: "Get started."
 lead: ""
 images: []
-weight: 100
+weight: 1000
 ---

@@ -4,9 +4,6 @@ description: "Custom SQL action configuration resource."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "resources"
 toc: true
 ---
 

@@ -4,11 +4,8 @@ description: "Overview of available configuration."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "configuration"
-weight: 210
 toc: true
+weight: 2100
 ---
 
 Krab by default will load and parse all the configuration files at `KRAB_DIR` path.

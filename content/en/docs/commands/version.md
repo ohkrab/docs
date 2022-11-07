@@ -4,9 +4,6 @@ description: "Version command in CLI."
 lead: ""
 draft: false
 images: []
-menu:
-  docs:
-    parent: "commands"
 toc: true
 ---
 
