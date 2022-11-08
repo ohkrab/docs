@@ -5,7 +5,6 @@ title = "Oh, Krab!"
 titleSeparator = "-"
 titleAddition = "Swiss army knife for PostgreSQL"
 description = "Krab is a PostgreSQL tool based on HCL syntax. Its aim is to provide fine control for your databases in every environment."
-# favicon = "/images/favicon.svg"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -17,10 +16,12 @@ domainTLD = "ohkrab.dev"
 titleHome = "Oh, Krab!"
 
 ## Twitter Cards
+twitterEnabled = false
 # twitterSite = "@getdoks"
 # twitterCreator = "@henkverlinde"
 
 ## JSON-LD
+schemaEnabled = false
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Oh, Krab!"

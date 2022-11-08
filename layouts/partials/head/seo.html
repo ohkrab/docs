@@ -39,7 +39,9 @@
 {{ end -}}
 
 {{ partial "head/opengraph.html" . }}
+{{ if .Site.Params.TwitterEnabled }}
 {{ partial "head/twitter_cards.html" . }}
+{{ end }}
 
 {{ range .AlternativeOutputFormats -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">

@@ -16,6 +16,8 @@
   {{ end -}}
 {{ end -}}
 
+
+{{ if .Site.Params.schemaEnabled -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -208,3 +210,4 @@
   ]
 }
 </script>
+{{ end }}
