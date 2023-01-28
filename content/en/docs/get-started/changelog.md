@@ -11,6 +11,10 @@ weight: 1300
 toc: true
 ---
 
+## 0.6.0
+
+- generate migration command
+
 ## 0.5.0
 
 - rewrite parser from hclsimple to schema based decoding
@@ -35,7 +39,7 @@ toc: true
 - resource arguments (parametrized commands)
 - windows support
 - small improvements for CLI output
-- schema migration table contains timestamp now 
+- schema migration table contains timestamp now
 
 ## 0.3.1
 
