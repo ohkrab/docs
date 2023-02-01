@@ -10,7 +10,7 @@ weight: 1200
 toc: true
 ---
 
-## binary 
+## binary
 
 Krab binary can be downloaded from [GitHub](https://github.com/ohkrab/krab/releases). Other methods are listed below.
 
@@ -27,16 +27,16 @@ asdf plugin add krab git@github.com:ohkrab/asdf-krab.git
 Install desired version:
 
 ```sh
-asdf install krab 0.5.0
+asdf install krab 0.6.1
 ```
 
 Set it to your project:
 
 ```sh
-asdf local krab 0.5.0
+asdf local krab 0.6.1
 ```
 
-## docker 
+## docker
 
 Docker images can be found at [Docker hub](https://hub.docker.com/orgs/ohkrab/repositories).
 
@@ -61,6 +61,6 @@ docker run --rm                          \  # remove container after command exe
 one-liner:
 
 ```sh
-docker run --rm -e DATABASE_URL="..." -v ${HOME}/project1:/etc/krab:ro ohkrab/krab:nightly --version 
+docker run --rm -e DATABASE_URL="..." -v ${HOME}/project1:/etc/krab:ro ohkrab/krab:nightly --version
 ```
 
