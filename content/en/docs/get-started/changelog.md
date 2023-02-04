@@ -11,6 +11,10 @@ weight: 1300
 toc: true
 ---
 
+## 0.6.2
+
+- build with go 1.19
+
 ## 0.6.1
 
 - add params to migration generator
