@@ -24,14 +24,14 @@ action "<namespace>" "<name>" {
 - `arguments` block (optional) - define arguments that can be used in `sql` as a variable, see [Resource arguments]({{< ref "docs/configuration/resource-arguments" >}}) for more details
 - `sql` - code to be executed
 
-## Arguments 
+## Arguments
 
 These attributes can be used with arguments:
 
 - `sql`
 
 
-## Example
+### Example
 
 ```hcl {lineNos=true}
 action "view" "refresh" {
@@ -45,3 +45,15 @@ action "view" "refresh" {
 }
 ```
 
+
+## Fakes
+
+You can generate fake data with `fake` function template.
+
+```hcl {lineNos=true}
+action "seed" "all" {
+  sql = <<-SQL
+  INSERT INTO companies (name) VALUES ({{ fake "Company.Name" | quote }})
+  SQL
+}
+```

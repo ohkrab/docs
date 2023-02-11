@@ -11,6 +11,10 @@ weight: 1300
 toc: true
 ---
 
+## 0.7.0
+
+- add fake generator for actions
+
 ## 0.6.2
 
 - build with go 1.19
