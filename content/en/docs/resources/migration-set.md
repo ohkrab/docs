@@ -19,11 +19,15 @@ migration_set "<reference>" {
 }
 ```
 
+{{<alert context="warning">}}
+Migrations are executed in the order defined by migration set, NOT lexicographically.
+{{</alert>}}
+
 - `<reference>` - migration set reference name
 - `schema` (optional) - schema name where to create `schema_migrations` table and run migrations (`SET search_path TO <schema>` is executed before each migration), default: `public`
 - `migrations` - list of [migrations]({{< ref "docs/resources/migration" >}}) references
 
-## Arguments 
+## Arguments
 
 These attributes can be used with arguments:
 
