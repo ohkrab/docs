@@ -16,12 +16,10 @@ Krab binary can be downloaded from [GitHub](https://github.com/ohkrab/krab/relea
 
 ## asdf
 
-Krab provides [asdf plugin](https://github.com/ohkrab/asdf-krab):
+Krab provides [asdf plugin](https://github.com/ohkrab/asdf-krab) (make sure you have asdf updated):
 
 ```sh
-asdf plugin add krab https://github.com/ohkrab/asdf-krab.git
-# or
-asdf plugin add krab git@github.com:ohkrab/asdf-krab.git
+asdf plugin add krab
 ```
 
 Install desired version:
