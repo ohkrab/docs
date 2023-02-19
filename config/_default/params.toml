@@ -10,7 +10,7 @@ description = "Krab is a PostgreSQL tool based on HCL syntax. Its aim is to prov
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["logo.svg"]
+images = ["images/logo.svg"]
 ogLocale = "en_US"
 domainTLD = "ohkrab.dev"
 titleHome = "Oh, Krab!"
@@ -111,4 +111,3 @@ lastMod = true
   [menu.section]
     auto = true
     collapsibleSidebar = false
-
