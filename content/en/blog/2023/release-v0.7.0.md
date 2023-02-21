@@ -1,7 +1,7 @@
 ---
 title: "Release v0.7.0 notes"
 description: "Fake generators as custom functions for Oh, Krab! templating engine."
-excerpt: "Latest addition brings fake data generators into templates."
+summary: "Latest addition brings fake data generators into templates."
 date: 2023-02-19T21:46:42+0100
 draft: false
 weight: 50
