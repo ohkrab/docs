@@ -3,7 +3,7 @@ Get started - things to get you set up and running Configuration - resources to 
 asdf # Krab provides asdf plugin (make sure you have asdf updated):
 asdf plugin add krab Install desired version:
 asdf install krab 0.7.0 Set it to your project:
-asdf local krab 0.7.0 docker # Docker images can be found at Docker hub.
+asdf local krab 0.7.0 docker # Docker images can be found at GitHub packages.
 To start a docker container a DATABASE_URL environment variable must be provided. By default &amp;ldquo;krab&amp;rdquo; reads configuration from /etc/krab that must be mounted as a volume, the path can be changed by KRAB_DIR environment variable.</description></item><item><title>Quick start</title><link>https://ohkrab.dev/docs/get-started/quick_start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ohkrab.dev/docs/get-started/quick_start/</guid><description>Generate migration # Go to your project (/tmp folder is used as an example):
 mkdir -p /tmp/project cd /tmp/project and generate migration:
 krab gen migration -name create_animals id name:varchar color:varchar weight:int timestamps This will generate file and print the output:

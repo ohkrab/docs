@@ -3,12 +3,12 @@ Get started - things to get you set up and running Configuration - resources to 
 asdf # Krab provides asdf plugin (make sure you have asdf updated):
 asdf plugin add krab Install desired version:
 asdf install krab 0.7.0 Set it to your project:
-asdf local krab 0.7.0 docker # Docker images can be found at Docker hub.
+asdf local krab 0.7.0 docker # Docker images can be found at GitHub packages.
 To start a docker container a DATABASE_URL environment variable must be provided. By default \u0026ldquo;krab\u0026rdquo; reads configuration from /etc/krab that must be mounted as a volume, the path can be changed by KRAB_DIR environment variable.
 Pull the docker image:
-docker pull ohkrab/krab:nightly Example:
-docker run --rm \\ # remove container after command execution -e DATABASE_URL=\u0026#34;...\u0026#34; \\ # provide connection string -v \${HOME}/project1:/etc/krab:ro \\ # mount configuration volume ohkrab/krab:nightly version # run \`version\` command from \`qbart/krab:latest\` one-liner:
-docker run --rm -e DATABASE_URL=\u0026#34;...\u0026#34; -v \${HOME}/project1:/etc/krab:ro ohkrab/krab:nightly --version `}),e.add({id:3,href:"/docs/get-started/quick_start/",title:"Quick start",description:"Quick setup for krab example.",content:`Generate migration # Go to your project (/tmp folder is used as an example):
+docker pull ghcr.io/ohkrab/krab:nightly Example:
+docker run --rm \\ # remove container after command execution -e DATABASE_URL=\u0026#34;...\u0026#34; \\ # provide connection string -v \${HOME}/project1:/etc/krab:ro \\ # mount configuration volume ghcr.io/ohkrab/krab:nightly version # run \`version\` command from \`qbart/krab:latest\` one-liner:
+docker run --rm -e DATABASE_URL=\u0026#34;...\u0026#34; -v \${HOME}/project1:/etc/krab:ro ghcr.io/ohkrab/krab:nightly version `}),e.add({id:3,href:"/docs/get-started/quick_start/",title:"Quick start",description:"Quick setup for krab example.",content:`Generate migration # Go to your project (/tmp folder is used as an example):
 mkdir -p /tmp/project cd /tmp/project and generate migration:
 krab gen migration -name create_animals id name:varchar color:varchar weight:int timestamps This will generate file and print the output:
 File generated: /tmp/project/db/migrations/20230213_210359_create_animals.krab.hcl Don\u0026#39;t forget to add your migration to migration_set: migration_set \u0026#34;public\u0026#34; { migrations = [ ... migration.create_animals, ... ] } File will contain:
