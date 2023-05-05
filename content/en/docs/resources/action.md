@@ -14,6 +14,7 @@ action "<namespace>" "<name>" {
   arguments {
     ...
   }
+  transaction = true
 
   sql = "..."
 }
@@ -23,6 +24,7 @@ action "<namespace>" "<name>" {
 - `<name>` - is a migration reference name to use when connecting to other resources
 - `arguments` block (optional) - define arguments that can be used in `sql` as a variable, see [Resource arguments]({{< ref "docs/configuration/resource-arguments" >}}) for more details
 - `sql` - code to be executed
+- `transaction (optional)` - specifies whether to run action in a transaction (default: `true`)
 
 ## Arguments
 

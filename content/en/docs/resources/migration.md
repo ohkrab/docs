@@ -15,11 +15,11 @@ migration "<reference>" {
   transaction = true
 
   up {
-	sql = "..."
+    sql = "..."
   }
 
   down {
-	sql = "..."
+	  sql = "..."
   }
 }
 ```
@@ -27,7 +27,7 @@ migration "<reference>" {
 - `<reference>` - is a migration reference name to use when connecting to other resources
 - `<version>` - name that will be used to identify migration in the database, can only be digits, alphanumeric characters and underscores
 - `up` / `down` - migration direction, contains SQL code to be executed
-- `transaction (optional)` - specifies whether run migration in a transaction (default: `true`)
+- `transaction (optional)` - specifies whether to run migration in a transaction (default: `true`)
 
 ## DSL
 
@@ -91,7 +91,7 @@ migration "create_animals" {
 	  }
 
 	  column "name" "varchar" { null = true }
-	  
+
 	  column "extinct" "boolean" {
 	    null    = false
 		default = "TRUE"
@@ -102,7 +102,7 @@ migration "create_animals" {
       # "weight_g" int GENERATED ALWAYS AS (weight_kg * 1000) STORED
 	  column "weight_g" "int" {
 		generated {
-		  as = "weight_kg * 1000" 
+		  as = "weight_kg * 1000"
 		}
 	  }
 
@@ -163,7 +163,7 @@ migration "create_animals" {
 	  column "id" "bigint" {}
 
 	  column "name" "varchar" {}
-	  
+
 	  column "extinct" "boolean" {}
 
 	  column "weight_kg" "int" {}

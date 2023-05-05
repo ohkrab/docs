@@ -4,7 +4,6 @@ description: "Fake generators as custom functions for Oh, Krab! templating engin
 summary: "Latest addition brings fake data generators into templates."
 date: 2023-02-19T21:46:42+0100
 draft: false
-weight: 50
 images: []
 categories: ["News"]
 tags: ["release", "krab", "faker", "seeds"]

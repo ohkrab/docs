@@ -11,6 +11,11 @@ weight: 1400
 toc: true
 ---
 
+## 0.8.0
+
+- allow to disable transaction mode for actions
+- test syntax proposal (only parsing)
+
 ## 0.7.0
 
 - add fake generator for actions
