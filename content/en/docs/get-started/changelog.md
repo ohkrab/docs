@@ -11,6 +11,14 @@ weight: 1400
 toc: true
 ---
 
+## 0.9.0
+
+Features:
+
+- Execute actions via UI
+- Browse database list via UI
+- Basic auth
+
 ## 0.8.0
 
 - allow to disable transaction mode for actions

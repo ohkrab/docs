@@ -1,7 +1,7 @@
 {
   "name": "krab",
   "description": "Oh, Krab!",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "engines": {
     "node": ">=16.16.0"
   },
